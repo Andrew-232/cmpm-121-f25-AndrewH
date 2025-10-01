@@ -42,3 +42,9 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 2. Under "Source", select "GitHub Actions"
 3. The workflow will automatically deploy on pushes to the `main` branch
 4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
+
+## Changes I made
+
+1. I deleted the comment that was causing problems from Deno for the const
+2. I added the logic for the counter to update for every click on the button
+3. I added some comments on the code to explain what the changes did
