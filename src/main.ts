@@ -22,6 +22,6 @@ const counterElement = document.getElementById("counter")!;
 button.addEventListener("click", () => {
   // This looks like to a good place to add some logic!
   counter++; // Added counter logic
-  counterElement.textContent = counter.toString(); // Added DOM update logic
+  counterElement.textContent = counter.toString(); // Added DOM update logic, this is new
   console.log("I have these thingies:", button, counterElement, counter);
 });
